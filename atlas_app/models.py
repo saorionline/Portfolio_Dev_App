@@ -12,7 +12,7 @@ class ProjectStatus(models.Model):
     pai_actions_overnight = models.TextField(verbose_name="PAI Actions Overnight")
     your_focus_today = models.TextField(verbose_name="Your Focus Today")
 
-    last_updated = models.DateTimeField(auto_now=True)
+    last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
     query_count = models.IntegerField(default=0)
 
     def __str__(self):
