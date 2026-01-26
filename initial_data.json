@@ -38,16 +38,16 @@
       "last_updated": "2026-01-22T20:00:00Z"
     }
   },
-  {
+    {
     "model": "atlas_app.projectstatus",
     "pk": 4,
     "fields": {
-      "project_name": "Echo",
-      "focus": "Social Medical Nutrition & Media Outreach",
-      "activity": "Prospect identification for Herbalife sales and media-quality networking in Latin America",
-      "status": "Prospecting",
-      "pai_actions_overnight": "Identified 127 high-value Latin American nutrition influencers, analyzed 43 media contacts, created engagement strategies for top 20 prospects",
-      "your_focus_today": "Review prospect list and initiate contact with tier-1 profiles",
+      "project_name": "Silverlining",
+      "focus": "Communicative and speech coaching",
+      "activity": "Develop speech fluency skills to address any trending topic from recruitment, to financial and bookkeeping.",
+      "status": "Developing System",
+      "pai_actions_overnight": "Identified 127 high-value keyword terms, analyzed 43 uptodate uses, created 20 phrases practicing with AI Speech Trainer",
+      "your_focus_today": "Review development checklist and initiate voice recordings, with Teleprompter to create videos.",
       "last_updated": "2026-01-22T20:00:00Z"
     }
   }
