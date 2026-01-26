@@ -17,3 +17,15 @@ class ProjectStatus(models.Model):
 
     def __str__(self):
             return f"{self.project_name} - {self.focus}"
+    
+class CurriculumCapsule(models.Model):
+    title = models.CharField(max_length=200)
+    # This links to the table above
+    status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='capsules')
+    last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
+
+class PortfolioProject(models.Model):
+    name = models.CharField(max_length=200)
+    # This also links to the table above
+    status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='projects')
+    last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
