@@ -33,6 +33,7 @@ class PortfolioProject(models.Model):
     # This also links to the table above
     status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='projects')
     last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
+    repo_url = models.URLField(blank=True)
 
 class Checklist(models.Model):
     task_name = models.CharField(max_length=255)
