@@ -28,6 +28,47 @@ class CurriculumCapsule(models.Model):
     status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='capsules')
     last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
 
+    class Meta:
+        verbose_name_plural = "Curriculum Capsules"
+
+    def __str__(self):
+        return self.title
+    
+class CurriculumCourse(models.Model):
+    title = models.CharField(max_length=200) # e.g., "FastAPI"
+    capsule = models.ForeignKey(CurriculumCapsule, 
+                               on_delete=models.SET_NULL, 
+                               null=True, 
+                               related_name='courses'
+    )
+    status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='detailed_courses')
+    last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
+
+    class Meta:
+        verbose_name_plural = "Curriculum Courses"
+
+    def __str__(self):
+        return self.title
+
+class CurriculumModule(models.Model):
+    course = models.ForeignKey(CurriculumCourse, on_delete=models.CASCADE, related_name='modules')
+    title = models.CharField(max_length=200) # e.g., "Introduction to FastAPI"
+    order = models.IntegerField(default=1)
+
+    def __str__(self):
+        return f"{self.course.title} - {self.title}"
+
+class CurriculumLesson(models.Model):
+    module = models.ForeignKey(CurriculumModule, on_delete=models.CASCADE, related_name='lessons')
+    title = models.CharField(max_length=200)
+    order = models.IntegerField()
+    duration = models.CharField(max_length=10) # Storing as "MM:SS"
+    is_completed = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"{self.order}. {self.title}"
+
+
 class PortfolioProject(models.Model):
     name = models.CharField(max_length=200)
     # This also links to the table above
