@@ -25,7 +25,12 @@ class ProjectStatus(models.Model):
 class CurriculumCapsule(models.Model):
     title = models.CharField(max_length=200)
     # This links to the table above
-    status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='capsules')
+    status = models.ForeignKey(
+        ProjectStatus, 
+        on_delete=models.SET_NULL, 
+        null=True, 
+        related_name='curriculum_capsules'
+    )
     last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
 
     class Meta:
@@ -68,13 +73,41 @@ class CurriculumLesson(models.Model):
     def __str__(self):
         return f"{self.order}. {self.title}"
 
+class PortfolioMockup(models.Model):
+    title = models.CharField(max_length=200)
+    description = models.TextField(blank=True) 
+    status = models.ForeignKey(
+        'ProjectStatus', 
+        on_delete=models.SET_NULL, 
+        null=True, 
+        blank=True, 
+        related_name='portfolio_mockups'
+    )
+    # To store the text you provided
+    last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
 
-class PortfolioProject(models.Model):
-    name = models.CharField(max_length=200)
-    # This also links to the table above
-    status = models.ForeignKey(ProjectStatus, on_delete=models.SET_NULL, null=True, related_name='projects')
+    def __str__(self):
+        return self.title
+
+class PortfolioCapsule(models.Model):
+    title = models.CharField(max_length=200)
+    # Changed to ManyToManyField
+    mockups = models.ManyToManyField(
+        PortfolioMockup, 
+        related_name='portfolio_capsules',
+        blank=True
+    )    # This also links to the table above
+    status = models.ForeignKey(
+        ProjectStatus, 
+        on_delete=models.SET_NULL, 
+        null=True, 
+        related_name='portfolio_capsule_status'
+    )
     last_updated = models.DateTimeField(auto_now=True, null=True, blank=True)
     repo_url = models.URLField(blank=True)
+
+    def __str__(self):
+        return self.title
 
 class Checklist(models.Model):
     task_name = models.CharField(max_length=255)
@@ -95,8 +128,8 @@ class Checklist(models.Model):
     )
     
     # Relations
-    portfolio_project = models.ForeignKey(
-        PortfolioProject, 
+    portfolio_capsule = models.ForeignKey(
+        PortfolioCapsule, 
         on_delete=models.CASCADE, 
         related_name='checklists', 
         null=True, 
