@@ -1,6 +1,6 @@
 [
   {
-    "model": "atlas_app.portfoliomockup",
+    "model": "portfolio.portfoliomockup",
     "pk": 2,
     "fields": {
       "title": "Unified Inventory Management System (Java & SQL)",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "model": "atlas_app.portfoliomockup",
+    "model": "portfolio.portfoliomockup",
     "pk": 3,
     "fields": {
       "title": "Automated Banking Transaction Engine (PL/SQL & Oracle)",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "model": "atlas_app.portfoliomockup",
+    "model": "portfolio.portfoliomockup",
     "pk": 4,
     "fields": {
       "title": "Student Enrollment & Grade Portal (Java & Relational Theory)",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "atlas_app.portfoliomockup",
+    "model": "portfolio.portfoliomockup",
     "pk": 5,
     "fields": {
       "title": "Personal Finance CLI Tool (Java & Git Workflow)",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "atlas_app.portfoliocapsule",
+    "model": "portfolio.portfoliocapsule",
     "pk": 1,
     "fields": {
       "title": "Java & Database Engineering",

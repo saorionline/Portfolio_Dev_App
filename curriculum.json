@@ -1,6 +1,6 @@
 [
   {
-    "model": "atlas_app.curriculumcourse",
+    "model": "curriculum.curriculumcourse",
     "pk": 1,
     "fields": {
       "title": "FastAPI",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 1,
     "fields": {
       "course": 1,
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 2,
     "fields": {
       "course": 1,
@@ -27,7 +27,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 3,
     "fields": {
       "course": 1,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 4,
     "fields": {
       "course": 1,
@@ -45,7 +45,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 5,
     "fields": {
       "course": 1,
@@ -54,7 +54,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 6,
     "fields": {
       "course": 1,
@@ -63,7 +63,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
+    "model": "curriculum.curriculummodule",
     "pk": 7,
     "fields": {
       "course": 1,
@@ -72,7 +72,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 1,
     "fields": {
       "module": 1,
@@ -83,7 +83,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 2,
     "fields": {
       "module": 1,
@@ -94,7 +94,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 3,
     "fields": {
       "module": 1,
@@ -105,7 +105,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 4,
     "fields": {
       "module": 2,
@@ -116,7 +116,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 5,
     "fields": {
       "module": 2,
@@ -127,7 +127,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 6,
     "fields": {
       "module": 2,
@@ -138,7 +138,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 8,
     "fields": {
       "module": 2,
@@ -149,7 +149,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 9,
     "fields": {
       "module": 2,
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 10,
     "fields": {
       "module": 2,
@@ -171,7 +171,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 11,
     "fields": {
       "module": 2,
@@ -182,52 +182,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculummodule",
-    "pk": 3,
-    "fields": {
-      "course": 1,
-      "title": "Arquitectura en FastAPI",
-      "order": 3
-    }
-  },
-  {
-    "model": "atlas_app.curriculummodule",
-    "pk": 4,
-    "fields": {
-      "course": 1,
-      "title": "Bases de Datos y Consultas",
-      "order": 4
-    }
-  },
-  {
-    "model": "atlas_app.curriculummodule",
-    "pk": 5,
-    "fields": {
-      "course": 1,
-      "title": "Middlewares",
-      "order": 5
-    }
-  },
-  {
-    "model": "atlas_app.curriculummodule",
-    "pk": 6,
-    "fields": {
-      "course": 1,
-      "title": "Unit Testing",
-      "order": 6
-    }
-  },
-  {
-    "model": "atlas_app.curriculummodule",
-    "pk": 7,
-    "fields": {
-      "course": 1,
-      "title": "Seguridad y Autenticación",
-      "order": 7
-    }
-  },
-  {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 12,
     "fields": {
       "module": 3,
@@ -238,7 +193,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 13,
     "fields": {
       "module": 4,
@@ -249,7 +204,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 14,
     "fields": {
       "module": 4,
@@ -260,7 +215,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 15,
     "fields": {
       "module": 4,
@@ -271,7 +226,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 16,
     "fields": {
       "module": 4,
@@ -282,7 +237,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 17,
     "fields": {
       "module": 4,
@@ -293,7 +248,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 18,
     "fields": {
       "module": 5,
@@ -304,7 +259,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 19,
     "fields": {
       "module": 5,
@@ -315,7 +270,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 20,
     "fields": {
       "module": 6,
@@ -326,7 +281,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 21,
     "fields": {
       "module": 6,
@@ -337,7 +292,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 22,
     "fields": {
       "module": 7,
@@ -348,7 +303,7 @@
     }
   },
   {
-    "model": "atlas_app.curriculumlesson",
+    "model": "curriculum.curriculumlesson",
     "pk": 23,
     "fields": {
       "module": 7,

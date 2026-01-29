@@ -1,6 +1,6 @@
 [
   {
-    "model": "atlas_app.projectstatus",
+    "model": "core.projectstatus",
     "pk": 1,
     "fields": {
       "project_name": "Nebula",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "model": "atlas_app.projectstatus",
+    "model": "core.projectstatus",
     "pk": 2,
     "fields": {
       "project_name": "Phoenix",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "model": "atlas_app.projectstatus",
+    "model": "core.projectstatus",
     "pk": 3,
     "fields": {
       "project_name": "Quantum",
@@ -39,7 +39,7 @@
     }
   },
     {
-    "model": "atlas_app.projectstatus",
+    "model": "core.projectstatus",
     "pk": 4,
     "fields": {
       "project_name": "Silverlining",

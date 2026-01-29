@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'atlas_app'
+    'atlas_app',
+    'core',
+    'curriculum',
+    'portfolio'
 ]
 
 MIDDLEWARE = [
