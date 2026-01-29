@@ -99,7 +99,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+USE_I18N = True
+LANGUAGES = [
+    ('en', 'English'),
+    ('es', 'Spanish'),
+]
+LOCALE_PATHS = [BASE_DIR / 'locale']
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
