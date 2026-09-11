@@ -1,23 +1,27 @@
 [
   {
-    "title": "Java & Database Engineering",
+    "title": "Modelos LLM elegidos: Decision Tree, K Nearest Neighbors y Artificial Neural Network",
     "repo_url": "",
     "projects": [
       {
-        "title": "Unified Inventory Management System (Java & SQL)",
-        "description": "Developed a desktop application to manage product stock, categories, and suppliers. Focuses on OOP and database connectivity. Key Features: CRUD operations using Java JDBC to connect to an Oracle Database. Technical Highlight: Applied Encapsulation and Inheritance. Managed version control using Git branches."
+        "title": "De Datos Dispersos a Decisiones Certeras",
+        "description": "En el flujo de reconciliación que diseñé, cada modelo encaja en una etapa específica. Cuando Python valida y transforma la información en bruto proveniente de las APIs, un Árbol de Decisión podría aplicar reglas jerárquicas —por monto, fecha o contraparte— para marcar transacciones potencialmente problemáticas antes de que lleguen a SQL. Durante el análisis de reconciliación en SQL, K Nearest Neighbors compararía cada transacción con casos históricos similares, ayudando a detectar duplicados o patrones recurrentes de discrepancias."
       },
       {
-        "title": "Automated Banking Transaction Engine (PL/SQL & Oracle)",
-        "description": "Built a database-level engine to handle bank account operations like transfers, deposits, and withdrawals. Key Features: Created PL/SQL Procedures to validate balances and Triggers for automated audit logs. Technical Highlight: Used Complex SQL Joins and optimized performance by indexing primary/foreign keys."
+        "title": "Inteligencia en Capas: Anticipando el Error",
+        "description": "En la gestión de excepciones que n8n coordina, una Red Neuronal Artificial aprendería relaciones no lineales entre variables como canal, frecuencia y monto para predecir qué excepciones son falsos positivos. Esto alimentaría el dashboard operativo en Retool con alertas más precisas y priorizadas, permitiendo al analista enfocar su atención en los casos que realmente requieren revisión manual, en lugar de procesar cada excepción de forma manual y repetitiva."
       },
       {
-        "title": "Student Enrollment & Grade Portal (Java & Relational Theory)",
-        "description": "Designed a system to manage university enrollments, mapping relationships between students, courses, and professors. Key Features: Designed the relational schema from scratch, ensuring 3rd Normal Form (3NF). Technical Highlight: Implemented a Java interface handling many-to-many relationships via intermediate tables."
+        "title": "Sistemas que Aprenden de Cada Discrepancia",
+        "description": "Mientras n8n se ocupa de manejar las excepciones, una Red Neuronal Artificial podría aprender patrones complejos entre múltiples variables históricas para anticipar qué excepciones son genuinas. Esta capa predictiva mejoraría la calidad de la información que finalmente se visualiza en el dashboard operativo de Retool, reduciendo el ruido y ofreciendo al analista una vista más confiable y accionable de los casos pendientes."
       },
       {
-        "title": "Personal Finance CLI Tool (Java & Git Workflow)",
-        "description": "A Command Line Interface (CLI) tool that allows users to track monthly expenses and export reports. Key Features: Uses file handling or a local Oracle instance to persist data. Technical Highlight: Demonstrated advanced Git usage with clean commit history and comprehensive README documentation."
+        "title": "El Trabajo Silencioso que Libera al Analista",
+        "description": "En el pipeline de reconciliación de extremo a extremo que construí, cada modelo se ubicaría en una fase clave del proceso. Durante la limpieza y transformación de datos con Python, un Árbol de Decisión aplicaría reglas de clasificación para segmentar transacciones según su nivel de riesgo o complejidad antes del análisis. En la fase de análisis de reconciliación en SQL, K Nearest Neighbors buscaría transacciones con patrones similares a casos previamente reconciliados, apoyando la validación cruzada de resultados."
+      },
+      {
+        "title": "De Reaccionar a Anticipar: Equipos Empoderados",
+        "description": "En el manejo de excepciones automatizado con n8n, una Red Neuronal Artificial procesaría relaciones no lineales entre variables como historial del cliente y frecuencia de transacciones. Con esto se lograría predecir con mayor precisión qué casos requieren revisión humana, información que se refleja finalmente en el dashboard operativo de Retool para agilizar la toma de decisiones del analista."
       }
     ]
   }

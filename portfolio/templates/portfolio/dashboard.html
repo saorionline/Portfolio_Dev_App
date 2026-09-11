@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAI Project Monitor</title>
+    <title>Análisis de Conciliaciones Automáticas</title>
     <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
 </head>
 <body>
-    <h1>PAI Project Monitor</h1>
+    <h1>Portafolio Saori Tovar</h1>
 
     <section>
-        <h2>Enhanced PAI Capabilities by Focus Area</h2>
+        <h2>Análisis de Conciliaciones Automáticas</h2>
         <div class="table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>Focus</th>
-                        <th>Activity</th>
-                        <th>Project</th>
-                        <th>Status</th>
-                        <th>PAI Actions Overnight</th>
-                        <th>Your Focus Today</th>
+                        <th>Proyecto</th>
+                        <th>Descripción</th>
+                        <th>Contexto</th>
+                        <th>Hallazgos</th>
+                        <th>Resultados Finales</th>
+                        <th>Comentarios Adicionales</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -44,7 +44,7 @@
     </section>
 
     <section>
-        <h2>Curriculum</h2>
+        <h2>Documentación Revisada</h2>
         {% for course in courses %}
         <article class="card">
             <h3>{{ course.title }} <span class="muted">{{ course.done }}/{{ course.total }} lessons</span></h3>
@@ -66,7 +66,7 @@
     </section>
 
     <section>
-        <h2>Portfolio</h2>
+        <h2>Anotaciones Adicionales Importantes</h2>
         {% for capsule in capsules %}
         <h3>{{ capsule.title }}{% if capsule.repo_url %} · <a href="{{ capsule.repo_url }}">repo</a>{% endif %}</h3>
         <div class="grid">

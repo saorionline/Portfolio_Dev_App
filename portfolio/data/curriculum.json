@@ -1,22 +1,22 @@
 [
   {
-    "title": "FastAPI",
+    "title": "Pensamiento Analítico Inteligente Aplicado ML | LLMs",
     "modules": [
       {
-        "title": "Introduction to FastAPI",
+        "title": "Mapa general del proyecto",
         "lessons": [
           {
-            "title": "Creating fast and efficient APIs with FastAPI",
+            "title": "Primero usamos Python para preparar y organizar los datos. Después usamos SQL para consultar esos datos y obtener respuestas de negocio. Python → prepara. SQL → analiza. n8n/Make → automatiza. Retool → muestra y permite operar. fechas escritas de diferentes maneras; recolectamos nombres diferentes para la misma cosa; informamos transacciones repetidas; validamos información faltante; verificamos montos incorrectos o inconsistentes, analizamos diferentes formatos.",
             "duration": "03:02",
             "done": false
           },
           {
-            "title": "Creating APIs with FastAPI: Fast and Versatile Framework",
+            "title": "SQL no necesita volver a limpiar todo porque Python ya preparó los datos. SQL recibe: Reconciliation Transactions, lo cuál nos sirve para entender cuántas transacciones tuvieron inconvenientes, cuál sistema genera más desviaciones y qué tipo de errores son más frecuentes. SQL nos permite hacer un análisis de las transacciones y sus excepciones.",
             "duration": "04:24",
             "done": false
           },
           {
-            "title": "Creating Virtual Environments and Configuring FastAPI",
+            "title": "Python nos dejó ciertos valores (Matched | Exception) que nos permiten filtrar y analizar los datos. SQL nos permite saber cuántas transacciones fueron correctas y cuántas tuvieron problemas. SQL nos permite hacer un análisis de las transacciones y sus excepciones.",
             "duration": "09:10",
             "done": false
           }
@@ -26,32 +26,32 @@
         "title": "Parameters and Validation",
         "lessons": [
           {
-            "title": "Creating a Dynamic Endpoint with FastAPI to Get Time by Country and Format",
+            "title": "Similitudes entre Python y SQL",
             "duration": "05:34",
             "done": false
           },
           {
-            "title": "Data Validation with Pydantic in FastAPI: Creating Endpoints",
+            "title": "Trabajo con Datos de Entrada: Python y SQL en Procesos de Datos",
             "duration": "08:44",
             "done": false
           },
           {
-            "title": "Data Modeling and Connecting Models in FastAPI",
+            "title": "Detección de Problemas: Duplicados, Nulos y Diferencias.",
             "duration": "08:45",
             "done": false
           },
           {
-            "title": "Conexión de FastAPI con SQLite usando SQLModel",
+            "title": "Comparación de Información: Expected vs. Received Data",
             "duration": "10:32",
             "done": false
           },
           {
-            "title": "Integración de SQLModel en FastAPI para Manejo de Bases de Datos",
+            "title": "Cálculos con Python y SQL: Diferencias, SUM, COUNT y AVGs",
             "duration": "09:00",
             "done": false
           },
           {
-            "title": "Creación y Gestión de Endpoints en FastAPI para CRUD de Clientes",
+            "title": "Enfoque de estudio: Datos de Entrada, Validación y Resultados",
             "duration": "08:49",
             "done": false
           },
@@ -63,10 +63,10 @@
         ]
       },
       {
-        "title": "Arquitectura en FastAPI",
+        "title": "Modelos de Clasificación en Machine LearningI",
         "lessons": [
           {
-            "title": "Estructuración de Aplicaciones con FastAPI y API Router",
+            "title": "Algoritmos Fundamentales de Aprendizaje Supervisado. De Vecinos a Redes: Modelos de Clasificación. La Neurona Original",
             "duration": "09:37",
             "done": false
           }
@@ -76,72 +76,98 @@
         "title": "Bases de Datos y Consultas",
         "lessons": [
           {
-            "title": "Relaciones en FastAPI y SQL Model: Creación y Uso Práctico",
+            "title": "Carga de Datos Limpios en SQL: Creación de la Tabla de Conciliaciones",
             "duration": "18:09",
             "done": false
           },
           {
-            "title": "Relaciones Muchos a Muchos en Bases de Datos con SQLModel",
+            "title": "Consultas de Conciliación con SQL: COUNT, SUM y AVG sobre Transacciones",
             "duration": "06:39",
             "done": false
           },
           {
-            "title": "Creación y Suscripción de Planes y Clientes en FastAPI",
+            "title": "Agrupación de Excepciones con SQL: GROUP BY y Análisis por Sistema",
             "duration": "11:58",
             "done": false
           },
           {
-            "title": "Consultas Avanzadas con SQL Model y Filtrado de Estados en FastAPI",
+            "title": "Filtrado de Transacciones con SQL: Identificación de Diferencias y Excepciones",
             "duration": "07:20",
             "done": false
           },
           {
-            "title": "Validación de Emails Únicos en Bases de Datos con Pydantic y FastAPI",
+            "title": "Análisis de Conciliaciones con SQL: Causas, Montos y Volumen de Excepciones",
             "duration": "08:45",
             "done": false
           }
         ]
       },
       {
-        "title": "Middlewares",
+        "title": "Integración Python + SQL",
         "lessons": [
           {
-            "title": "Implementación de Paginación en FastAPI con SQLModel",
+            "title": "Flujo de Datos entre Python y SQL: De Datos Crudos a Información Estructurada",
             "duration": "05:55",
             "done": false
           },
           {
-            "title": "Implementación de Middlewares en FastAPI para Medir Tiempos de Request",
+            "title": "Carga de Datasets Procesados con Python en una Base de Datos SQL",
+            "duration": "05:53",
+            "done": false
+          },
+          {
+            "title": "Conciliación Transaccional End-to-End: Python para Preparar y SQL para Analizar",
+            "duration": "13:30",
+            "done": false
+          },
+          {
+            "title": "Validación de Resultados de Conciliación: Comparación entre Python y SQL",
             "duration": "05:53",
             "done": false
           }
         ]
       },
       {
-        "title": "Unit Testing",
+        "title": "Automatización de Excepciones con n8n / Make",
         "lessons": [
+          
           {
-            "title": "Pruebas unitarias con FastAPI y Pytest: Configuración y Ejecución",
-            "duration": "13:30",
+            "title": "Diseño de Workflows de Conciliación: Detección y Manejo Automático de Excepciones",
+            "duration": "07:29",
             "done": false
           },
           {
-            "title": "Pruebas Unitarias para CRUD de Clientes en FastAPI",
+            "title": "Automatización de Alertas con n8n: Notificación de Diferencias Transaccionales",
+            "duration": "07:29",
+            "done": false
+          },
+           {
+            "title": "Actualización Automática de Estados: Integración entre Datos y Workflows",
+            "duration": "07:29",
+            "done": false
+          },
+           {
+            "title": "Priorización de Excepciones: Automatización de Casos según Severidad",
             "duration": "07:29",
             "done": false
           }
         ]
       },
       {
-        "title": "Seguridad y Autenticación",
+        "title": "Dashboard Operacional con Retool",
         "lessons": [
           {
-            "title": "Autenticación Básica HTTP con FastAPI",
+            "title": "Creación de un Dashboard de Conciliaciones con Retool",
             "duration": "07:26",
             "done": false
           },
           {
-            "title": "Creación de Endpoints y Bases de Datos con FastAPI",
+            "title": "Visualización de Transacciones y Excepciones: Filtros, Estados y Métricas",
+            "duration": "03:16",
+            "done": false
+          },
+          {
+            "title": "Monitoreo Operacional: Construcción de una Cola de Excepciones para el Analista",
             "duration": "03:16",
             "done": false
           }

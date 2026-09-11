@@ -1,38 +1,30 @@
 [
   {
-    "name": "Nebula",
-    "status": "Sprint 3",
-    "focus": "Curriculum Development",
-    "activity": "Daily practical knowledge acquisition for AI cross-industryworkflows",
-    "pai_actions_overnight": "Resolved 12 code conflicts, suggested 3 architectural improvements, catalogued 5 new skills learned",
+    "name": "¿Qué problema de conciliación debe resolver este dataset?",
+    "status": "Sprint 1",
+    "focus": "Match o Exception: Cruce de Cuentas",
+    "activity": "Implementé un pipeline de verificación y cruce de cuentas de movimientos, operaciones, registros o datos transaccionales.",
+    "pai_actions_overnight": "Diseñé un flujo de reconciliación en el que los datos de transacciones se obtienen mediante APIs, Python se encarga de validar y transformar la información en bruto, SQL ejecuta el análisis de reconciliación, n8n gestiona los flujos de excepciones, y Retool ofrece un dashboard operativo para el analista.",
     "your_focus_today": "Review ML model accuracy and document learning outcomes",
     "last_updated": "2026-02-10"
   },
   {
-    "name": "Phoenix",
-    "status": "Design Phase",
-    "focus": "Job Interview Preparation",
-    "activity": "Company offer analysis, CV optimization, and speech coaching",
-    "pai_actions_overnight": "Generated 5 design variations based on feedback, updated material costs, analyzed 3 company culture fits",
+    "name": "¿Qué tipo de conciliación se generó estos datos?",
+    "status": "Sprint 2",
+    "focus": "Get transactions and return table: El puente entre datos crudos y tablas útiles",
+    "activity": "Declaré APIs e integraciones que validan y transforman los datos crudos, sin procesar, originales o raw.",
+    "pai_actions_overnight": "Desarrollé un proceso de reconciliación donde los datos transaccionales llegan a través de APIs; luego Python valida y transforma esa información cruda, SQL realiza el análisis de reconciliación propiamente dicho, n8n se ocupa de manejar las excepciones, y todo se visualiza en un dashboard operativo construido en Retool para el analista.",
     "your_focus_today": "Prepare and run stakeholder presentation through interview simulation practice",
     "last_updated": "2026-01-22"
   },
   {
-    "name": "Quantum",
-    "status": "Draft Stage",
-    "focus": "Digital Cloud Platforms Services",
-    "activity": "Comprehensive cloud infrastructure solutions for businesses seeking scalable digital transformation services.",
-    "pai_actions_overnight": "Our digital cloud platforms service transforms business operations by providing comprehensive cloud infrastructure solutions that eliminate technical complexity from digital transformation decisions. Instead of selling physical hardware or software, we monetize cloud expertise through specialized consulting and managed services that identify optimal cloud architectures for business growth.",
-    "your_focus_today": "Develop Java SQL Oracle Cloud infrastructure for invoice list management and comprehensive cash flow operations tracking.",
-    "last_updated": "2026-02-10"
-  },
-  {
-    "name": "Silverlining",
-    "status": "Developing System",
-    "focus": "Strategic Cross-Industry Communication Mastery",
-    "activity": "Develop speech fluency skills to address any trending topic from recruitment, to financial and bookkeeping.",
-    "pai_actions_overnight": "In January 2026, you focused on refining your \"Silverlinings\" by mastering high-stakes communication across diverse industries. You moved beyond simple task management to daily rigorous training: writing and memorizing complex scripts for Executive Assistant roles in finance, recruitment, and onboarding, as well as specialized end-to-end service protocols for the US healthcare sector. Today, you expanded that range by crafting a pitch for the automotive trade, focusing on the strategic shift toward digital assets, scalable models, and high-return business structures.",
-    "your_focus_today": "Today, you expanded that range by crafting a pitch for the automotive trade, focusing on the strategic shift toward digital assets, scalable models, and high-return business structures.",
+    "name": "¿Cuáles son los tipos de datos esperados?",
+    "status": "Sprint 3",
+    "focus": "Reporte claro de discrepancias significativas",
+    "activity": "Llevé a cabo el manejo de excepciones o anomalías hacia el dashboard visual.",
+    "pai_actions_overnight": "Construí un pipeline de reconciliación de extremo a extremo: ingesta de transacciones vía APIs, limpieza y transformación de datos con Python, análisis de reconciliación en SQL, manejo de excepciones automatizado con n8n, y un dashboard operativo en Retool para que el analista monitoree todo el proceso.",
+    "your_focus_today": "Prepare Python SQL n8n Make Cloud presentation with comprehensive data comparison and error detection.",
     "last_updated": "2026-02-10"
   }
+  
 ]
