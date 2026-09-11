@@ -1,6 +1,6 @@
 [
   {
-    "name": "¿Qué problema de conciliación debe resolver este dataset?",
+    "name": "¿Qué problema de conciliación resuelve este dataset?",
     "status": "Sprint 1",
     "focus": "Match o Exception: Cruce de Cuentas",
     "activity": "Implementé un pipeline de verificación y cruce de cuentas de movimientos, operaciones, registros o datos transaccionales.",
@@ -9,7 +9,7 @@
     "last_updated": "2026-02-10"
   },
   {
-    "name": "¿Qué tipo de conciliación se generó estos datos?",
+    "name": "¿Qué tipo de conciliaciones generaron estos datos?",
     "status": "Sprint 2",
     "focus": "Get transactions and return table: El puente entre datos crudos y tablas útiles",
     "activity": "Declaré APIs e integraciones que validan y transforman los datos crudos, sin procesar, originales o raw.",
@@ -18,9 +18,9 @@
     "last_updated": "2026-01-22"
   },
   {
-    "name": "¿Cuáles son los tipos de datos esperados?",
+    "name": "¿Qué se espera después de la conciliación?",
     "status": "Sprint 3",
-    "focus": "Reporte claro de discrepancias significativas",
+    "focus": "Reporte claro de discrepancias significativas solucionadas y no solucionadas",
     "activity": "Llevé a cabo el manejo de excepciones o anomalías hacia el dashboard visual.",
     "pai_actions_overnight": "Construí un pipeline de reconciliación de extremo a extremo: ingesta de transacciones vía APIs, limpieza y transformación de datos con Python, análisis de reconciliación en SQL, manejo de excepciones automatizado con n8n, y un dashboard operativo en Retool para que el analista monitoree todo el proceso.",
     "your_focus_today": "Prepare Python SQL n8n Make Cloud presentation with comprehensive data comparison and error detection.",
