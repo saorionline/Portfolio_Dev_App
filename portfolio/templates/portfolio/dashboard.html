@@ -1,0 +1,83 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAI Project Monitor</title>
+    <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
+</head>
+<body>
+    <h1>PAI Project Monitor</h1>
+
+    <section>
+        <h2>Enhanced PAI Capabilities by Focus Area</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Focus</th>
+                        <th>Activity</th>
+                        <th>Project</th>
+                        <th>Status</th>
+                        <th>PAI Actions Overnight</th>
+                        <th>Your Focus Today</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for project in projects %}
+                    <tr>
+                        <td><strong>{{ project.focus }}</strong></td>
+                        <td>{{ project.activity }}</td>
+                        <td>{{ project.name }}</td>
+                        <td>{{ project.status }}</td>
+                        <td>{{ project.pai_actions_overnight|linebreaks }}</td>
+                        <td>{{ project.your_focus_today|linebreaks }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="6">No projects yet. Add them in portfolio/data/projects.json.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>Curriculum</h2>
+        {% for course in courses %}
+        <article class="card">
+            <h3>{{ course.title }} <span class="muted">{{ course.done }}/{{ course.total }} lessons</span></h3>
+            {% for module in course.modules %}
+            <details>
+                <summary>{{ forloop.counter }}. {{ module.title }} <span class="muted">({{ module.lessons|length }})</span></summary>
+                <ul class="lessons">
+                    {% for lesson in module.lessons %}
+                    <li{% if lesson.done %} class="done"{% endif %}>
+                        <span>{{ lesson.title }}</span>
+                        <span class="muted">{{ lesson.duration }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </details>
+            {% endfor %}
+        </article>
+        {% endfor %}
+    </section>
+
+    <section>
+        <h2>Portfolio</h2>
+        {% for capsule in capsules %}
+        <h3>{{ capsule.title }}{% if capsule.repo_url %} · <a href="{{ capsule.repo_url }}">repo</a>{% endif %}</h3>
+        <div class="grid">
+            {% for item in capsule.projects %}
+            <article class="card">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.description }}</p>
+            </article>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </section>
+</body>
+</html>

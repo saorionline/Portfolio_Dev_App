@@ -1,0 +1,152 @@
+[
+  {
+    "title": "FastAPI",
+    "modules": [
+      {
+        "title": "Introduction to FastAPI",
+        "lessons": [
+          {
+            "title": "Creating fast and efficient APIs with FastAPI",
+            "duration": "03:02",
+            "done": false
+          },
+          {
+            "title": "Creating APIs with FastAPI: Fast and Versatile Framework",
+            "duration": "04:24",
+            "done": false
+          },
+          {
+            "title": "Creating Virtual Environments and Configuring FastAPI",
+            "duration": "09:10",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Parameters and Validation",
+        "lessons": [
+          {
+            "title": "Creating a Dynamic Endpoint with FastAPI to Get Time by Country and Format",
+            "duration": "05:34",
+            "done": false
+          },
+          {
+            "title": "Data Validation with Pydantic in FastAPI: Creating Endpoints",
+            "duration": "08:44",
+            "done": false
+          },
+          {
+            "title": "Data Modeling and Connecting Models in FastAPI",
+            "duration": "08:45",
+            "done": false
+          },
+          {
+            "title": "Conexión de FastAPI con SQLite usando SQLModel",
+            "duration": "10:32",
+            "done": false
+          },
+          {
+            "title": "Integración de SQLModel en FastAPI para Manejo de Bases de Datos",
+            "duration": "09:00",
+            "done": false
+          },
+          {
+            "title": "Creación y Gestión de Endpoints en FastAPI para CRUD de Clientes",
+            "duration": "08:49",
+            "done": false
+          },
+          {
+            "title": "Actualización de Clientes: Implementación de Endpoint PATCH",
+            "duration": "07:47",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Arquitectura en FastAPI",
+        "lessons": [
+          {
+            "title": "Estructuración de Aplicaciones con FastAPI y API Router",
+            "duration": "09:37",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Bases de Datos y Consultas",
+        "lessons": [
+          {
+            "title": "Relaciones en FastAPI y SQL Model: Creación y Uso Práctico",
+            "duration": "18:09",
+            "done": false
+          },
+          {
+            "title": "Relaciones Muchos a Muchos en Bases de Datos con SQLModel",
+            "duration": "06:39",
+            "done": false
+          },
+          {
+            "title": "Creación y Suscripción de Planes y Clientes en FastAPI",
+            "duration": "11:58",
+            "done": false
+          },
+          {
+            "title": "Consultas Avanzadas con SQL Model y Filtrado de Estados en FastAPI",
+            "duration": "07:20",
+            "done": false
+          },
+          {
+            "title": "Validación de Emails Únicos en Bases de Datos con Pydantic y FastAPI",
+            "duration": "08:45",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Middlewares",
+        "lessons": [
+          {
+            "title": "Implementación de Paginación en FastAPI con SQLModel",
+            "duration": "05:55",
+            "done": false
+          },
+          {
+            "title": "Implementación de Middlewares en FastAPI para Medir Tiempos de Request",
+            "duration": "05:53",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Unit Testing",
+        "lessons": [
+          {
+            "title": "Pruebas unitarias con FastAPI y Pytest: Configuración y Ejecución",
+            "duration": "13:30",
+            "done": false
+          },
+          {
+            "title": "Pruebas Unitarias para CRUD de Clientes en FastAPI",
+            "duration": "07:29",
+            "done": false
+          }
+        ]
+      },
+      {
+        "title": "Seguridad y Autenticación",
+        "lessons": [
+          {
+            "title": "Autenticación Básica HTTP con FastAPI",
+            "duration": "07:26",
+            "done": false
+          },
+          {
+            "title": "Creación de Endpoints y Bases de Datos con FastAPI",
+            "duration": "03:16",
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Java & Database Engineering",
+    "repo_url": "",
+    "projects": [
+      {
+        "title": "Unified Inventory Management System (Java & SQL)",
+        "description": "Developed a desktop application to manage product stock, categories, and suppliers. Focuses on OOP and database connectivity. Key Features: CRUD operations using Java JDBC to connect to an Oracle Database. Technical Highlight: Applied Encapsulation and Inheritance. Managed version control using Git branches."
+      },
+      {
+        "title": "Automated Banking Transaction Engine (PL/SQL & Oracle)",
+        "description": "Built a database-level engine to handle bank account operations like transfers, deposits, and withdrawals. Key Features: Created PL/SQL Procedures to validate balances and Triggers for automated audit logs. Technical Highlight: Used Complex SQL Joins and optimized performance by indexing primary/foreign keys."
+      },
+      {
+        "title": "Student Enrollment & Grade Portal (Java & Relational Theory)",
+        "description": "Designed a system to manage university enrollments, mapping relationships between students, courses, and professors. Key Features: Designed the relational schema from scratch, ensuring 3rd Normal Form (3NF). Technical Highlight: Implemented a Java interface handling many-to-many relationships via intermediate tables."
+      },
+      {
+        "title": "Personal Finance CLI Tool (Java & Git Workflow)",
+        "description": "A Command Line Interface (CLI) tool that allows users to track monthly expenses and export reports. Key Features: Uses file handling or a local Oracle instance to persist data. Technical Highlight: Demonstrated advanced Git usage with clean commit history and comprehensive README documentation."
+      }
+    ]
+  }
+]
